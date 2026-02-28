@@ -1,5 +1,30 @@
-This repo shall contain the code for Kira's first game:
-
-Dragon Dodger!
+Dragon Dodger
 
 🐲 🌈 🌈 🐲
+
+What is this?
+This is a tiny, friendly game project built with the Godot Engine. The goal is to dodge obstacles along a rainbow path.
+
+What you need (no coding background required)
+1) Godot Engine 4.x (free). Download it from the official Godot website.
+2) This project folder on your computer.
+
+How to open and run the game
+1) Open Godot.
+2) Click Import.
+3) Select the godot folder inside this project.
+4) Open the project.
+5) Press the Play button (▶) to run Level 1.
+
+What you’ll see right now
+- A rainbow arc (the track)
+- A few thorn and swirl obstacles (visual placeholders)
+- A basic scene setup ready for movement logic
+
+For developers (optional)
+This repo also includes a simple Python CLI scaffold managed by Poetry. It is not required to run the Godot project.
+
+Project layout
+- godot: Godot project files and scenes
+- dragon_dodger: Python package for the CLI entrypoint
+- requirements.md: Game design notes and ideas
