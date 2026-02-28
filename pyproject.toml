@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "dragon-dodger"
+version = "0.1.0"
+description = "CLI prototype for Dragon Dodger"
+authors = ["Your Name <you@example.com>"]
+readme = "README"
+packages = [{ include = "dragon_dodger" }]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[tool.poetry.scripts]
+dragon-dodger = "dragon_dodger.cli:main"
+
+[build-system]
+requires = ["poetry-core>=1.6.0"]
+build-backend = "poetry.core.masonry.api"
